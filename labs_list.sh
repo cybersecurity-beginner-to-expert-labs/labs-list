@@ -21,8 +21,10 @@ cd "$LAB_ROOT"
 echo "[*] Downloading $LAB..."
 curl -L -o $LAB.zip https://github.com/cybersecurity-beginner-to-expert-labs/$LAB/archive/refs/heads/main.zip
 
-[ -d "$LAB" ] && rm -rf "$LAB"
-[ -d "$LAB-main" ] && rm -rf "$LAB"
+echo "currently in folder"
+ls
+sudo [ -d "$LAB" ] && rm -rf "$LAB"
+sudo [ -d "$LAB-main" ] && rm -rf "$LAB"
 unzip -q $LAB.zip
 mv "$LAB-main" "$LAB"
 
