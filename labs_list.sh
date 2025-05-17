@@ -31,4 +31,4 @@ pwd
 cd $LAB
 pwd
 chmod +x init.sh
-# sudo ./init.sh
+sudo ./init.sh
