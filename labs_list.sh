@@ -21,8 +21,6 @@ cd "$LAB_ROOT"
 echo "[*] Downloading $LAB..."
 curl -L -o $LAB.zip https://github.com/cybersecurity-beginner-to-expert-labs/$LAB/archive/refs/heads/main.zip
 
-echo "currently in folder"
-ls
 sudo [ -d "$LAB" ] && rm -rf "$LAB"
 sudo [ -d "$LAB-main" ] && rm -rf "$LAB"
 unzip -q $LAB.zip
@@ -33,4 +31,4 @@ pwd
 cd $LAB
 pwd
 chmod +x init.sh
-sudo ./init.sh
+# sudo ./init.sh
