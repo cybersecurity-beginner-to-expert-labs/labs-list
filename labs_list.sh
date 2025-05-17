@@ -23,4 +23,4 @@ rm -f $LAB.zip
 
 cd $LAB
 chmod +x init.sh
-./init.sh
+sudo ./init.sh
