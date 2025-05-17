@@ -26,9 +26,6 @@ sudo [ -d "$LAB-main" ] && rm -rf "$LAB"
 unzip -q $LAB.zip
 mv "$LAB-main" "$LAB"
 
-echo "current"
-pwd
 cd $LAB
-pwd
 chmod +x init.sh
 sudo ./init.sh
