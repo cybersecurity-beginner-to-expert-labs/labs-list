@@ -23,7 +23,6 @@ curl -L -o $LAB.zip https://github.com/cybersecurity-beginner-to-expert-labs/$LA
 
 unzip -q $LAB.zip
 mv "$LAB-main" "$LAB"
-rm -f $LAB.zip
 
 cd $LAB
 chmod +x init.sh
