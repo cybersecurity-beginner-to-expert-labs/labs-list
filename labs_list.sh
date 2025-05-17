@@ -13,6 +13,10 @@ case $choice in
   *) echo "Invalid choice."; exit 1 ;;
 esac
 
+# Set working directory
+LAB_ROOT="$HOME/Desktop/Labs"
+cd "$LAB_ROOT"
+
 # Download and extract the lab repo
 echo "[*] Downloading $LAB..."
 curl -L -o $LAB.zip https://github.com/cybersecurity-beginner-to-expert-labs/$LAB/archive/refs/heads/main.zip
