@@ -1,9 +1,12 @@
 #!/bin/bash
 
-echo "=== Available Labs ==="
+echo "------------------------------------ Available Labs ---------------------------------"
+echo ""
 echo "1. Nmap Scanning Lab"
 echo "2. SQL Injection Lab"
 echo "0. Exit"
+echo ""
+echo "-------------------------------------------------------------------------------------"
 read -p "Enter your choice: " choice
 
 case $choice in
