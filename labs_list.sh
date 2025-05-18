@@ -1,11 +1,9 @@
 #!/bin/bash
-
-echo "------------------------------------ Available Labs ---------------------------------"
 echo ""
+echo "------------------------------------ Available Labs ---------------------------------"
 echo "1. Nmap Scanning Lab"
 echo "2. SQL Injection Lab"
 echo "0. Exit"
-echo ""
 echo "-------------------------------------------------------------------------------------"
 read -p "Enter your choice: " choice
 
