@@ -1,6 +1,6 @@
 #!/bin/bash
 echo ""
-echo "------------------------------------ Available Labs ---------------------------------"
+echo "------------------------------------ Available labs ---------------------------------"
 echo "1. Nmap Scanning Lab"
 echo "2. SQL Injection Lab"
 echo "0. Exit"
