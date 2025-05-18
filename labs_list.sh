@@ -20,7 +20,8 @@ cd "$LAB_ROOT"
 
 # Download and extract the lab repo
 echo "[*] Downloading $LAB..."
-curl -L -o $LAB.zip https://github.com/cybersecurity-beginner-to-expert-labs/$LAB/archive/refs/heads/main.zip
+TS=$(date +%s)
+curl -L -o $LAB.zip "https://github.com/cybersecurity-beginner-to-expert-labs/$LAB/archive/refs/heads/main.zip?cache_bust=$TS"
 
 sudo [ -d "$LAB" ] && rm -rf "$LAB"
 sudo [ -d "$LAB-main" ] && rm -rf "$LAB"
