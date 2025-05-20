@@ -10,7 +10,7 @@ read -p "Enter your choice: " choice
 case $choice in
   1) LAB="nmap-scan" ;;
   2) LAB="sqli" ;;
-  3) LAB='snort-ids' ;;
+  3) LAB="snort-ids" ;;
   0) echo "Goodbye!"; exit 0 ;;
   *) echo "Invalid choice."; exit 1 ;;
 esac
