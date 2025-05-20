@@ -3,6 +3,7 @@ echo ""
 echo "------------------------------------ Available labs ---------------------------------"
 echo "1. Nmap Scanning Lab"
 echo "2. SQL Injection Lab"
+echo "3. SNORT IDS Lab"
 echo "0. Exit"
 echo "-------------------------------------------------------------------------------------"
 read -p "Enter your choice: " choice
