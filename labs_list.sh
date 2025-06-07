@@ -5,6 +5,7 @@ echo "1. Nmap Scanning Lab"
 echo "2. SQL Injection Lab"
 echo "3. SNORT IDS Lab"
 echo "4. TCP Dump Lab"
+echo "5. Wireshark Introduction Lab"
 echo "0. Exit"
 echo "-------------------------------------------------------------------------------------"
 read -p "Enter your choice: " choice
@@ -14,6 +15,7 @@ case $choice in
   2) LAB="sqli" ;;
   3) LAB="snort-ids" ;;
   4) LAB="tcpdump" ;;
+  5) LAB="wireshark-intro" ;;
   0) echo "Goodbye!"; exit 0 ;;
   *) echo "Invalid choice."; exit 1 ;;
 esac
